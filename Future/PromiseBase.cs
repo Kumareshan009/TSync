@@ -31,7 +31,7 @@ namespace Future
             {
                 if (IsValueReady)
                 {
-                    throw new Exception("Second time set is not allowed");
+                    throw new Exception("Value cannot be set more than once");
                 }
                 else
                 {
